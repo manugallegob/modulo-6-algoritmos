@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalice.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="cart-container">
+      <div id="product-list-container">
+        <h2>Carrito de la compra</h2>
+        <div id="product-list-cabecera">
+          <span>Nombre del producto</span>
+          <span>Precio Unit.</span>
+          <span>Cantidad</span>
+        </div>
+        <ol id="product-list"></ol>
+      </div>
+      <button id="button-calc">Calcular</button>
+      <section class="resumen-container">
+        <div>
+          <span>Sub-total: </span>
+          <span id="subTotal"></span>
+        </div>
+        <div>
+          <span>Iva: </span>
+          <span id="tax"></span>
+        </div>
+        <div>
+          <span>Total: </span>
+          <span id="totalCart"></span>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
